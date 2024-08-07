@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(55,65,81);
+}
+.text{
+    color: aliceblue;
+    font-family: "M Plus Rounded 1c";
+}
+.profile{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.your{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.texts{
+    width: 80%;
+    margin: auto;
+}
+.username,.pass,.email{
+    width: 100%;
+    background-color:rgb(55,65,81);
+    margin-left: 0px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 2px;
+    outline: none;
+}
+.blogspace{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #374151;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bttn{
+    background-color: rgb(17,24,39);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btn{
+    margin-bottom: 300px;
+}
+.your2{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+@media (max-width: 540px) {
+    .blogspace{
+      display: grid;
+      grid-template-columns:  100%;
+      background-color: #374151;
+    }
+  }
+  @media (min-width: 541px) and (max-width: 1050px) {
+    .blogspace{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        background-color: #374151;
+      }
+}
+  

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(55,65,81);
+}
+.text{
+    color: aliceblue;
+    font-family: "M Plus Rounded 1c";
+}
+.createpost{
+    width: 80%;
+}
+.titlee{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.head{
+    width: 100%;
+    background-color:rgb(55,65,81);
+    margin-left: 0px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 2px;
+    margin-left: 10%;
+    outline: none;
+}
+.file{
+    background-color: rgb(55,65,81);
+    margin-left: 10%; 
+    margin-top: 10px;  
+}
+input[type="file"]::file-selector-button {
+    background-color: rgb(17,24,39);
+    color: azure;
+    outline: none;
+    border-radius: 5px ;
+  }
+.fil{
+    display: flex;
+}
+.category{
+    width: 40%;
+    background-color:rgb(55,65,81);
+    margin-left: 0px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 2px;
+    outline: none;
+}
+.cat{
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+}
+.add2{
+    width: 5%;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    background-color: #111827;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.catss{
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+}
+.cats{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.categ{
+        margin: auto;
+        margin-right: 10px;
+}
+.cross{
+    margin: auto;
+    background-color:rgb(55,65,81);
+    border-radius: 80%;
+  display: inline-block;  
+  width: 25px;             
+  height: 25px;
+  text-align: center;      
+  line-height: 25px; 
+  font-size: smaller; 
+  font-family: monospace;
+  cursor: pointer;
+}
+.description{
+    background-color:rgb(55,65,81);
+    width: 100%; 
+    margin-left: 10%;
+    margin-top: 10px;
+    font-size: 20px;
+    outline: none;
+    resize: none;
+}
+.create{
+    width: 10%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 12px;
+}
+.btn{
+    display: flex;
+}
+@media (max-width: 540px) {
+    .category{
+        width:90%
+    }
+    .add2{
+        width:20%
+    }
+  }
+  @media (min-width: 541px) and (max-width: 1050px) {
+    .category{
+        width:90%
+    }
+    .add2{
+        width:20%
+    }
+  
+}
+
+
